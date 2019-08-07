@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -63,4 +64,194 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+/* h1 {
+	font-family: 'Dokdo', sans-serif;
+} */
+
+nav {
+	overflow: hidden;
+	/* background-color: #3AC6FF; */
+	background-color: rgb(219, 216, 212);
+  	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+	margin: auto;
+	padding-bottom: 10px;
+	width: 876px;
+}
+
+nav a {
+	text-decoration: none;
+	color: rgb(61, 57, 57);
+	/* text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000; */
+	padding: 25px;
+}
+
+nav a:hover {
+	background: rgba(109, 109, 109, 0.452);
+	color: white;
+}
+
+nav .logo {
+	padding-left: 60px;
+}
+
+header {
+	line-height: 0.75;
+	margin: 50px 0px 50px 100px;
+	width: 876px;
+}
+
+header .title {
+	font-size: 80px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px 15px;
+	margin-right: 100px;
+}
+
+header .title button {
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 6px 40px;
+	color: black;
+	background-color: rgb(218, 218, 218);
+}
+
+header .title button:hover{
+	background: black;
+	color: white;
+}
+
+header img {
+	display: inline-block;
+	width: 35%;
+}
+
+main {
+	margin-top: 30px; 
+  }
+
+.top-content {
+	width: 876px;
+}
+
+.top-content div {
+	display: inline-block;
+	width: 49%;
+	text-align: justify;
+	padding: 10px;
+}
+
+.middle-img {
+	margin: 30px 0px;
+}
+
+.bottom-content {
+	width: 876px;
+}
+
+.bottom-content div {
+	display: inline-block;
+	width: 33%;
+	text-align: justify;
+	padding: 10px;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+body { /* centers the website */
+	width: 876px;
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+/*Services page style*/
+nav .services-nav{
+	overflow: hidden;
+	background-color: rgb(219, 216, 212);
+  	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+	margin: auto;
+	padding-bottom: 10px;
+	width: 876px;
+}
+main .services-header-img{
+	margin: 30px 0px;
+}
+.services-services{
+	font-size: 20px;
+	margin: 10px 0px 15px;
+	
+}
+h2{
+	font-size: 25px;
+}
+section .services-content{
+	width: 876px;
+
+}
+.services-content{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	justify-content: space-between;
+	
+}
+.services-item{
+	display: flex;
+	border: 1px solid black;
+	flex-direction: column;
+	background-color: rgb(243, 242, 242);
+	width: 48%;
+	margin: 20px 0px 20px 0px;
+}
+.services-content h2, p{
+	margin: 15px;
+	
+}
+.services-button{
+	display: flex;
+	border: 1px solid black;
+	margin: 15px 300px 15px 10px;
+	padding: 6px 6px;
+	border-radius: 10px;
+	color: black;
+	background-color: rgb(255, 255, 255);
+
+}
+.services-bottom-content{
+	display: flex;
+	margin: 30px 0px 30px 0px;
+}
+.services-bottom-content p{
+	margin: 0px 30px 30px 0px;
+}
+.services-bottom-content ul{
+	list-style-type: square;
+	padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
